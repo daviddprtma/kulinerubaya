@@ -8,30 +8,94 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </head>
 <body>
+    <div id="dataDetailRestaurant"></div>
     <script>
-        var getJSON = function(url, callback) {
-    var xhr = new XMLHttpRequest();
-    xhr.open('GET', url, true);
-    xhr.responseType = 'json';
-    xhr.onload = function() {
-      var status = xhr.status;
-      if (status === 200) {
-        callback(null, xhr.response);
-      } else {
-        callback(status, xhr.response);
-      }
-    };
-    xhr.send();
-};
+        var query = window.location.search;
+        var urlParam = new URLSearchParams(query);
+        var id = urlParam.get('id');
+        console.log(id);
 
-    getJSON('https://daviddprtma.github.io/kulinerubaya/detailrestaurant.json',
-function(err, data) {
-  if (err !== null) {
-    alert('Something went wrong: ' + err);
-  } else {
-    alert('Your query count: ' + JSON.stringify(data));
-  }
-});
+        let detail = [
+        {
+        "restaurant_id" : 1,
+        "nama": "Gudeg Pecel Cedhek Ubaya",
+        "rating": "4.6",
+        "lokasi": "Jl.raya Tenggilis Mejoyo aj no.5",
+        "kategori": "makan ditempat dan bawa pulang",
+        "url": "https://lh5.googleusercontent.com/p/AF1QipPAjgug9gXA5xjOcS_vBywrW3zanazGyNfUd4Ix=w114-h114-n-k-no",
+        "review": [
+            {
+                "nama": "Angel",
+                "komentar": "Makanan ini sangat lezat sekali dan saya ingin merekomendasikan tempat ini ke keluarga saya :)."
+            }
+        ]
+    },
+    {
+        "restaurant_id" : 2,
+        "nama": "Nasi Goreng Cumi Pak gatot BBM Ubaya",
+        "rating": "4.3",
+        "lokasi": "Jl.Rungkut Mejoyo Selatan",
+        "kategori": "makan ditempat dan bawa pulang",
+        "url": "https://lh5.googleusercontent.com/p/AF1QipPYvUgg81_aD7cjDnI-j5LVryesm0FIn_qd814G=w114-h114-n-k-no",
+        "review": [
+            {
+                "nama": "Adam",
+                "komentar": "Nasi Goreng ini benar benar beda banget dengan nasi goreng yang lain yuk buruan coba"
+            },
+            {
+               "nama": "Selvi Andriani",
+               "komentar": "Cumi di nasi goreng ini buat aku ketagihan untuk memakannya. Tapi sayangnya harganya agak terlalu mahal sedikit sih dibandingkan dengan nasi goreng yang lain"
+            }
+        ]
+    },
+    {
+        "restaurant_id" : 3,
+        "nama": "Warung Cak Su Ubaya",
+        "rating": "4.5",
+        "lokasi": "Jl.Tenggilis Mejoyo no.3",
+        "kategori": "makan ditempat dan bawa pulang",
+        "url": "https://lh5.googleusercontent.com/p/AF1QipMbSuxhqGoS9eydW4D88copJtV7nc2a_UstjZwd=w114-h114-n-k-no",
+        "review": [
+            {
+                "nama": "David",
+                "komentar": "Enak sih di warung ini tapi cuma kondisi warungnya agak kurang bersih"
+            }
+        ]
+    },
+    {
+        "restaurant_id" : 4,
+        "nama": "Mie Suprek Ubaya",
+        "rating": "4.6",
+        "lokasi": "Jl. Raya Tenggilis Mejoyo No.AA 12",
+        "kategori": "Makan di tempat,Bawa pulang,Antar tanpa bertemu",
+        "url": "https://lh5.googleusercontent.com/p/AF1QipNzeYTAmF0dcZ0NjOlkESoHLNL7OBkAsqQyKTJO=w135-h135-n-k-no",
+        "review": [
+            {
+                "nama": "Jihan",
+                "komentar": "Tempat makan bersih dan luas"
+            },
+            {
+                "nama": "Akbar",
+                "komentar": "Plus poin nasi, nasi uduk, sop, dan es teh refill Free!"
+            },
+            {
+                "name": "Ellisa Noel",
+                "komentar": "Tempatnya bersih cuma emg agak panas. Sup, es teh, nasi nya bs nambah dan mas mba nya gercep buat nge refill nya. Nasi uduk nya juara sih, engga eneg tp ttp gurih, wangi, dimakan jg ringan. Sambelnya jg enak, engga yang cabe doang gitu. Sambel matahnya jg seger bgt karna d kasih ptongan jeruknya jd bs sesuain sendiri keasamannya. Ayamnya jg renyah enak dan gk kecil"
+            }
+        ]
+    }
+        ];
+
+    if(id == null){
+        document.getElementById("dataDetailRestaurant").innerHTML = JSON.stringify(detail);
+    }
+    else{
+        for (var i =0; i<=detail.length; i++){
+            if(detail[i].restaurant_id == id){
+                document.getElementById("dataDetailRestaurant").innerHTML = JSON.stringify(detail[i]);
+            }
+        }
+    }
     </script>
     
 </body>
