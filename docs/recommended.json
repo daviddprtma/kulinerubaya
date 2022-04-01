@@ -1,18 +1,12 @@
 [
    { 
     "id": 1, 
-    "name": "Gudeg Pecel Cedhek Ubaya", 
-    "rating": "4.6", 
-    "lokasi": "Jl.raya Tenggilis Mejoyo aj no.5", 
-    "kategori": "makan ditempat dan bawa pulang", 
+    "name": "Gudeg Pecel Cedhek Ubaya",
     "url": "https://lh5.googleusercontent.com/p/AF1QipPAjgug9gXA5xjOcS_vBywrW3zanazGyNfUd4Ix=w114-h114-n-k-no" 
   },
   { 
     "id": 4, 
     "name": "Mie Suprek Ubaya", 
-    "rating": "4.6", 
-    "lokasi": "Jl. Raya Tenggilis Mejoyo No.AA 12", 
-    "kategori": "Makan di tempat,Bawa pulang,Antar tanpa bertemu", 
     "url": "https://lh5.googleusercontent.com/p/AF1QipNzeYTAmF0dcZ0NjOlkESoHLNL7OBkAsqQyKTJO=w135-h135-n-k-no" 
   }
  ]
