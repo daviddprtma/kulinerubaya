@@ -1,0 +1,50 @@
+[
+    {
+        "namaRestaurant":"Gudeg Pecel Cedhek Ubaya",
+        "food":[
+            {
+            "nama":"Nasi Gudeg",
+            "harga":15000,
+            "url": "https://awsimages.detik.net.id/community/media/visual/2021/05/06/sedep-mlekoh-5-nasi-gudeg-khas-jogja-dengan-lauk-lengkap-3.jpeg?w=700&q=90"
+        },{
+            "nama":"Nasi Gudeg Pecel",
+            "harga":16000,
+            "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlRNqI0lpPx84Hu5YhEZJ1O0nDz8ly0k53LQ&usqp=CAU"
+        }
+    ]
+    },
+    {
+        "namaRestaurant": "Nasi Goreng Cumi Pak Gatot BBM Ubaya",
+        "food":[
+            {
+            "nama":"Nasi Goreng Cumi",
+            "harga":30000,
+            "url": "https://img-global.cpcdn.com/recipes/b01251a3356ada13/1200x630cq70/photo.jpg"
+        }
+    ]
+    },
+    {
+        "namaRestaurant": "Warung Cak Su Ubaya",
+        "food":[
+        {
+            "nama":"Indomie Goreng Spesial",
+            "harga":10000,
+            "url": "https://img-global.cpcdn.com/recipes/370522301810c339/1200x630cq70/photo.jpg"
+        },{
+            "nama":"Indomie Kuah Soto",
+            "harga":8000,
+            "url":"https://img-global.cpcdn.com/recipes/931faf33cf453a37/680x482cq70/indomie-goreng-soto-foto-resep-utama.jpg"
+        }
+    ]
+    },
+    {
+        "namaRestaurant": "Mr Suprek Ubaya",
+        "food":[
+        {
+            "nama":"Ayam Geprek Pedas",
+            "harga":25000,
+            "url": "https://img-global.cpcdn.com/recipes/cfe37f82ce72ec3c/1200x630cq70/photo.jpg"
+        }
+    ]
+    }
+]
