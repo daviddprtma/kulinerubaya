@@ -1,72 +1,60 @@
 [
     {
-        "namaRestaurant":"Gudeg Pecel Cedhek Ubaya",
         "namaDrink":"Choco Hazellnut",
         "harga":19000,
         "url": "https://cf.shopee.co.id/file/8d91e685eabf3e2b784472e48394c454"
    },
    { 
-    "namaRestaurant":"Gudeg Pecel Cedhek Ubaya",
     "namaDrink":"Choco Lava",
     "harga":25000,
     "url":"https://images.tokopedia.net/img/cache/500-square/product-1/2020/2/28/8642220/8642220_f5305ea8-66e2-4782-a02f-c7d7242364bb_709_709"
    },
    {
-    "namaRestaurant":"Gudeg Pecel Cedhek Ubaya",
     "namaDrink":"Ice Lemon Tea",
     "harga":15000,
     "url": "https://halalpedia.oss-ap-southeast-5.aliyuncs.com/2021/05/20210528210654-60b0f8fecff57-3df831a268faf80190d950a15bd7e36b.jpg"
    },
    {
-    "namaRestaurant":"Gudeg Pecel Cedhek Ubaya",
     "namaDrink":"Es Teh",
     "harga":5000,
     "url": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmZMpW3uNyji9q07W75R_fc79E1dhrk__D8w&usqp=CAU"
    },
    {
-    "namaRestaurant":"Nasi Goreng Cumi Pak Gatot Ubaya",
     "namaDrink":"Bubble Gum",
     "harga":20000,
     "url":"https://id-test-11.slatic.net/p/53b59114eb50aee3f12303015407dd57.jpg_720x720q80.jpg_.webp"
    },
    {
-    "namaRestaurant":"Nasi Goreng Cumi Pak Gatot Ubaya",
     "namaDrink":"Capuccino Drink",
     "harga":17000,
     "url":"https://i.gojekapi.com/darkroom/gofood-indonesia/v2/images/uploads/fedae595-e38c-4328-8240-d8cc98ea264a_IMG_20200703_080119_369.jpg?h=636&w=1082&fit=crop&auto=compress"
    },
    {
-    "namaRestaurant":"Nasi Goreng Cumi Pak Gatot Ubaya",
     "namaDrink":"Thai Red Tea",
     "harga":55000,
     "url":"https://cf.shopee.co.id/file/f1b257d26f905f2510110b7d36852732"
    },
    {
-    "namaRestaurant":"Nasi Goreng Cumi Pak Gatot Ubaya",
     "namaDrink":"Thai Red Tea",
     "harga":55000,
     "url":"https://cf.shopee.co.id/file/f1b257d26f905f2510110b7d36852732"
    },
    {
-    "namaRestaurant":"Warung Cak Su Ubaya",
     "namaDrink":"French Vanilla",
     "harga":46000,
     "url":"https://deliciousmadeeasy.com/wp-content/uploads/2019/07/french-vanilla-iced-coffee-8-of-20-scaled.jpg"
    },
    {
-    "namaRestaurant":"Warung Cak Su Ubaya",
     "namaDrink":"Mango Tea",
     "harga":46000,
     "url":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9Asi2naOhxd00Hup5NgjDaWYM3KFBzLuKsA&usqp=CAU"
    },
    {
-    "namaRestaurant":"Mr Suprek Ubaya",
     "namaDrink":"Black Forest Drink",
     "harga":37000,
     "url":"https://cf.shopee.co.id/file/d411bc0994baa9368072de183d1a22c8"
    },
    {
-    "namaRestaurant":"Mr Suprek Ubaya",
     "namaDrink":"Boba Bubble Drink",
     "harga":10000,
     "url":"https://asset.kompas.com/crops/aP_98iCv79Qo41hFBjRvIQ8YyG8=/0x0:1000x667/750x500/data/photo/2019/09/26/5d8c4fff5f34c.jpg"
